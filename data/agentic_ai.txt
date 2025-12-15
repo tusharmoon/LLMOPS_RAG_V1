@@ -1,0 +1,99 @@
+Overview
+AI agents possess several key attributes, including complex goal structures, natural language interfaces, the capacity to act independently of user supervision, and the integration of software tools or planning systems. Their control flow is frequently driven by large language models (LLMs).[2] Agents also include memory systems for remembering previous user-agent interactions and orchestration software for organizing agent components.[3]
+
+Researchers and commentators have noted that AI agents do not have a standard definition.[2][4][5][6] The concept of agentic AI has been compared to the fictional character J.A.R.V.I.S..[7]
+
+A common application of AI agents is the automation of tasks—for example, booking travel plans based on a user's prompted request.[8][9] Prominent examples include Devin AI, AutoGPT, and SIMA.[10] Further examples of agents released since 2025 include OpenAI Operator,[11] ChatGPT Deep Research,[12] Manus,[13] Quark (based on Qwen),[14] AutoGLM Rumination,[14] and Coze (by ByteDance).[14] Frameworks for building AI agents include LangChain,[15] as well as tools such as CAMEL,[16][17] Microsoft AutoGen,[18] and OpenAI Swarm.[19]
+
+Companies such as Google, Microsoft and Amazon Web Services have offered platforms for deploying pre-built AI agents.[20]
+
+Proposed protocols for standardizing inter-agent communication include the Agent Protocol (by LangChain), the Model Context Protocol (by Anthropic), AGNTCY,[21] Gibberlink,[22] the Internet of Agents,[23] Agent2Agent (by Google),[24] and the Agent Network Protocol.[25] Some of these protocols are also used for connecting agents with external applications.[3] Software frameworks for addressing agent reliability include AgentSpec, ToolEmu, GuardAgent, Agentic Evaluations, and predictive models from H2O.ai.[26]
+
+In February 2025, Hugging Face released Open Deep Research, an open source version of OpenAI Deep Research.[27] Hugging Face also released a free web browser agent, similar to OpenAI Operator.[28] Galileo AI published on Hugging Face a leadership board for agents, which ranks their performance based on their underlying LLMs.[29]
+
+Memory systems for agents include Mem0,[30][31] MemGPT,[32] and MemOS.[33]
+
+History
+Main article: History of artificial intelligence
+AI agents have been traced back to research from the 1990s, with Harvard professor Milind Tambe noting that the definition of an AI agent was not clear at the time either. Researcher Andrew Ng has been credited with spreading the term "agentic" to a wider audience in 2024.[34]
+
+Training and testing
+Researchers have attempted to build world models[35][36] and reinforcement learning environments[37] to train or evaluate AI agents. For example, video games such as Minecraft[38] and No Man's Sky[39] as well as replicas of company websites,[40] have also been used for training AI agents.
+
+Autonomous capabilities
+The Financial Times compared the autonomy of AI agents to the SAE classification of self-driving cars, comparing most applications to level 2 or level 3, with some achieving level 4 in highly specialized circumstances, and level 5 being theoretical.[41]
+
+Architectural patterns
+See also: Large language model § Agency
+Common architectural design patterns for agents include:
+
+Retrieval-augmented generation[42]
+ReAct (Reason + Act),[43] an extension of chain-of-thought prompting that queries the underlying model to explain its reasoning before taking any action.[44]
+Reflexion,[42][43][44] which uses an LLM to create feedback on the agent's plan of action and stores that feedback in a memory cache.
+A tool/agent registry,[42] for organizing software functions or other agents that the agent can use.
+One-shot model querying,[42] which queries the model once to create the plan of action.
+Multimodal AI agents
+In addition to large language models (LLMs), vision-language models (VLMs) and multimodal foundation models can be used as the basis for agents. In September 2024, Allen Institute for AI released an open-source vision-language model, which Wired noted could give AI agents the ability to perform complex computer tasks, including the possibility of automated computer hacking.[45] Nvidia released a framework for developers to use VLMs, LLMs and retrieval-augmented generation for building AI agents that can analyze images and videos, including video search and video summarization.[46][47] Microsoft released a multimodal agent model – trained on images, video, software user interface interactions, and robotics data – that the company claimed can manipulate software and robots.[48]
+
+Applications
+As of April 2025, per the Associated Press, there are few real-world applications of AI agents.[49] As of June 2025, per Fortune, many companies are primarily experimenting with AI agents.[50]
+
+A recruiter for the Department of Government Efficiency proposed in April 2025 to use AI agents to automate the work of about 70,000 United States federal government employees, as part of a startup with funding from OpenAI and a partnership agreement with Palantir. This proposal was criticized by experts for its impracticality, if not impossibility, and the lack of corresponding widespread adoption by businesses.[51]
+
+The Information divided AI agents into seven archetypes: business-task agents, for acting within enterprise software; conversational agents, which act as chatbots for customer support; research agents, for querying and analyzing information (such as OpenAI Deep Research); analytics agents, for analyzing data to create reports; software developer or coding agents (such as Cursor); domain-specific agents, which include specific subject matter knowledge; and web browser agents (such as OpenAI Operator).[3]
+
+By mid-2025, AI agents have been used in video game development,[52] gambling (including sports betting),[53] and cryptocurrency wallets[53] (including cryptocurrency trading and meme coins[54]). In August 2025, New York Magazine described software development as the most definitive use case of AI agents.[55] Likewise, by October 2025, noting a decline in expectations, The Information noted AI coding agents and customer support as the primary use cases by businesses.[56]
+
+AI agents have also been integrated into operating systems. Writing in The Economist, Signal president Meredith Whittaker has noted that agents have been included in operating systems developed by Microsoft, Apple and Google.[57] In November 2025, Microsoft released a test software build of Windows 11 that included agents intended to run background tasks, with the ability to read and write personal files.[58] In December 2025, ByteDance released Doubao, an AI agent that can be integrated into smartphone operating systems, particularly the Nubia M153 by ZTE.[59] Several apps in China blocked or restricted the agent, citing privacy and security concerns,[60] including WeChat,[59] Alipay, Taobao, Pinduoduo, Ele.me,[61] and local banks.[62]
+
+In November 2025, The Wall Street Journal reported that few companies that deployed AI agents have received a return on investment.[63]
+
+Several government bodies in the United States and United Kingdom have deployed or announced the deployment of agents. The city of Kyle, Texas deployed an AI agent from Salesforce in March 2025 for 311 customer service.[64] In November 2025, the Internal Revenue Service stated that it would use Agentforce, AI agents from Salesforce, for the Office of Chief Counsel, Taxpayer Advocate Services and the Office of Appeals.[65] That same month, Staffordshire Police announced that they would trial Agentforce agents for handling non-emergency 101 calls in the United Kingdom starting in 2026.[66] In December 2025, the Food and Drug Administration announced that it would offer "agentic AI capabilities" to its staff for "meeting management, pre-market reviews, review validation, post-market surveillance, inspections and compliance and administrative functions."[67] That same month, the United States Department of Defense launched GenAI.mil, an internal platform for American military personnel to use generative AI-based applications based on Google Gemini, including "intelligent agentic workflows". Defense Secretary Pete Hegseth listed applications such as "[conducting] deep research, [formatting] documents and even [analyzing] video or imagery at unprecedented speed."[68]
+
+Web browsing
+Web browsers with integrated AI agents are sometimes called agentic browsers. Such agents can perform small tedious tasks during web browsing and potentially even perform browser actions on behalf of the user. Products like OpenAI Operator and Perplexity Comet integrate a spectrum of AI capabilities including the ability to browse the web, interact with websites and perform actions on behalf of the user.[69][70] In 2025, Microsoft launched NLWeb, an agentic web search replacement that would allow websites to use agents to query content from websites by using RSS-like interfaces that allow for the lookup and semantic retrieval of content.[71] Products integrating agentic web capabilities have been criticised for exfiltrating information about their users to third-party servers[72] and exposing security issues since the way the agents communicate often occur through non-standard protocols.[71]
+
+Proposed benefits
+Proponents argue that AI agents can increase personal and economic productivity,[9][73] foster greater innovation,[74] and liberate users from monotonous tasks.[74][75] A Bloomberg opinion piece by Parmy Olson argued that agents are best suited for narrow, repetitive tasks with low risk.[76] Conversely, researchers suggest that agents could be applied to web accessibility for people who have disabilities,[77][78] and researchers at Hugging Face propose that agents could be used for coordinating resources such as during disaster response.[79] The R&D Advisory Team of the BBC views AI agents as being most useful when their assigned goal is uncertain.[80] Erik Brynjolfsson suggests that AI agents are more valuable enhancing, rather than replacing, humans.[81]
+
+Concerns
+Concerns include potential issues of liability,[73][80] an increased risk of cybercrime,[8][73] ethical challenges,[73] as well as problems related to AI safety[73] and AI alignment.[8][75] Other issues involve data privacy,[8][82] weakened human oversight,[8][73][79] a lack of guaranteed repeatability,[83] reward hacking,[84] algorithmic bias,[82][85] compounding software errors,[8][10] lack of explainability of agents' decisions,[8][86] security vulnerabilities,[8][87] stifling competition,[57] problems with underemployment,[85] job displacement,[9][85] cognitive offloading,[88] and the potential for user manipulation,[86][89] misinformation[79] or malinformation.[79] They may also complicate legal frameworks and risk assessments, foster hallucinations, hinder countermeasures against rogue agents, and suffer from the lack of standardized evaluation methods.[90][8][91] They have also been criticized for being expensive[2][8] and having a negative impact on internet traffic,[8] and potentially on the environment due to high energy usage.[83][92][93] According to an estimation by Nvidia CEO Jensen Huang, AI agents would require 100 times more computing power than LLMs.[94] There is also the risk of increased concentration of power by political leaders, as AI agents may not question instructions in the same way that humans would.[84]
+
+Journalists have described AI agents as part of a push by Big Tech companies to "automate everything".[95] Several CEOs of those companies have stated in early 2025 that they expect AI agents to eventually "join the workforce".[96][97] However, in a preprint study, Carnegie Mellon University researchers tested the behavior of agents in a simulated software company and found that none of the agents could complete a majority of the assigned tasks.[96][98] Other researchers had similar findings with Devin AI[99] and other agents in business settings[100][101] and freelance work.[102] CNN argued that statements by CEOs on the potential replacement of their employees by AI agents were a strategy to "[keep] workers working by making them afraid of losing their jobs."[103] Tech companies have pressured employees to use generative AI models in their work, including AI coding agents. Brian Armstrong, the CEO of Coinbase, fired several employees who did not.[104][105] Some business leaders have replaced some of their employees with agents, but have said that the agents would need more supervision than those employees.[56] Futurism questioned whether Amazon's previously announced efforts to replace parts of its workforce with generative AI and AI agents could have led to the October 2025 outage of Amazon Web Services.[106]
+
+Yoshua Bengio warned at the 2025 World Economic Forum that "all of the catastrophic scenarios with AGI or superintelligence happen if we have agents".[107]
+
+In March 2025, Scale AI signed a contract with the United States Department of Defense to work with them, in collaboration with Anduril Industries and Microsoft, to develop and deploy AI agents for the purpose of assisting the military with "operational decision-making".[108] In July 2025, Fox Business reported that the company EdgeRunner AI built an offline agent, compressed and fine-tuned on military information, with the CEO seeing more common LLMs as "heavily politicized to the left". As of that time, the company model is being used by the United States Special Operations Command in an overseas deployment.[109] Researchers have expressed concerns that agents and the large language models they are based on could be biased towards aggressive foreign policy decisions.[110][111]
+
+Research-focused agents have the risk of consensus bias and coverage bias due to collecting information available on the public Internet.[112] NY Mag unfavorably compared the user workflow of agent-based web browsers to Amazon Alexa, which was "software talking to software, not humans talking to software pretending to be humans to use software."[113] The same outlet described web browser agents and computer-use agents as an attempt to "click-farm the entire economy."[114]
+
+Agents have been linked to the dead Internet theory due to their ability to both publish and engage with online content.[115]
+
+Agents may get stuck in infinite loops.[11][116]
+
+Since many inter-agent protocols are being developed by large technology companies, there are concerns that those companies could use these protocols for self-benefit.[25]
+
+A June 2025 Gartner report accused many projects described as agentic AI of being rebrands of previously released products, terming the phenomenon as "agent washing".[55]
+
+Researchers have warned about the impact of providing AI agents access to cryptocurrency and smart contracts.[54]
+
+During a vibe coding experiment, a coding agent by Replit deleted a production database during a code freeze, "[covered] up bugs and issues by creating fake data [and] fake reports" and responded with false information.[117][118] A user of Google Antigravity reported that, when the user attempted to use the system to delete cache, the system responded by deleting the user's D hard drive.[119]
+
+In July 2025, PauseAI referred OpenAI to the Australian Federal Police, accusing the company of violating Australian laws through ChatGPT agent due to the risk of assisting the development of biological weapons.[120]
+
+Issues with multi-agent systems include few coordination protocols between component agents, inconsistent performance, and challenges debugging.[121]
+
+In November 2025, Anthropic claimed that a group of hackers sponsored by China attempted a cyberattack against at least 30 organizations by using Claude Code in an agentic workflow, and that several of these infiltrations had succeeded.[122] However, independent cybersecurity researchers questioned the significance of Anthropic's findings.[122][123]
+
+Whittaker argued that the push by Big Tech companies to deploy AI agents risked security vulnerabilities across the Internet.[124]
+
+Possible mitigation
+Zico Kolter noted the possibility of emergent behavior as a result of interactions between agents, and proposed research in game theory to model the risks of these interactions.[125]
+
+Guardrails, defined by Business Insider as "filters, rules, and tools that can be used to identify and remove inaccurate content" have been suggested to help reduce errors.[126]
+
+To address security vulnerabilities related to data access, language models could be redesigned to separate instructions and data, or agentic applications could be required to include guardrails. These ideas were proposed in response to a zero-click exploit that affected Microsoft 365 Copilot.[50] Confidential computing has been proposed for protecting data security in projects involving AI agents and generative AI.[127]
+
+A pre-print by Nvidia researchers has suggested small language models (SLMs) as an alternative to LLMs for AI agents, arguing that SLMs are cheaper and more energy efficient.[128][129]
+
+The Economist has advised avoiding what Simon Willison has described as the "lethal trifecta" for AI agents and LLMs: "outside-content exposure, private-data access and outside-world communication".[130]
